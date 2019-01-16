@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cities.json": "^1.1.5",
+    "gps2zip": "^2.2.0",
+    "latlng-to-zip": "0.0.1",
     "react": "^16.6.3",
+    "react-autosuggest": "^9.4.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },

@@ -1,4 +1,6 @@
 import React from 'react';
+import cities from 'cities.json';
+import Autosuggest from 'react-autosuggest';
 
 class Form extends React.Component {
   state = {
@@ -15,6 +17,7 @@ class Form extends React.Component {
     });
   };
   render() {
+    console.log(cities[250].name);
     return (
       <div>
         <form onSubmit={this.getInput}>

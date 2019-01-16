@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './components/Form';
 import DisplayWeather from './components/DisplayWeather';
+import Example from './components/Example';
 
 class App extends Component {
   state = {
@@ -37,8 +38,9 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
+      <div className="">
         <Form getWeather={this.getWeather} />
+        <Example getWeather={this.getWeather} />
         <DisplayWeather
           weatherDay={this.state.weatherDay}
           weatherNight={this.state.weatherNight}
